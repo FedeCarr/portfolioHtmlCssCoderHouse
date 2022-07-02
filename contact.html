@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>FredInBrandenburg | Home</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <!-- NAVEGADOR -->
+        <nav class="nav-container">
+          <!-- Logo -->
+          <h1 id="logo">Fred in Brandenburg</h1>
+          <!--Menú  -->
+          <ul class="menu-superior">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./brandenburg.html">Brandenburg</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- CONTENIDO PRINCIPAL DE CONTACT -->
+      <main>
+        <section>
+          <h2>
+            I am available to collaborate on different cultural events and
+            discover new places in Brandenburg
+          </h2>
+        </section>
+        <!--SECCION FORMULARIO-->
+        <section>
+          <h2>Contact me</h2>
+          <!-- input: Campo de nombre -->
+          <form action="">
+            <label for="nameContact">Name:</label>
+            <input
+              type="text"
+              placeholder="Write your name"
+              name="emailContact"
+            />
+            <!-- input: Campo de email -->
+            <label for="emailContact">Email:</label>
+            <input
+              type="email"
+              name="emailContact"
+              placeholder="Write your email"
+            />
+            <!-- Menu desplegable: Pregunta si reside en Brandenburgo-->
+            -->
+            <label for="residencia">Do you live in Brandenburg?</label>
+            <select name="residencia" id="residencia">
+              <option value="">Choose option</option>
+              <option value="yes">Yes</option>
+              <option value="noBut">No but I live in Germany</option>
+              <option value="yes">No, I live in another country.</option>
+            </select>
+            <!-- Checkbox: newsletter -->
+            <label for="notifications"
+              >Do you want to receive event notifications?<input
+                type="checkbox"
+                name="newsletter"
+                id=""
+            /></label>
+
+            <label for="messageContact"
+              >Drop me a line if you fancy a chat:</label
+            >
+            <textarea
+              name="messageContact"
+              id="messageContact"
+              cols="30"
+              rows="10"
+            ></textarea>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </main>
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer-container">
+          <h3 class="footer-text--location">From Berlin to the world</h3>
+          <ul class="footer-social">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Linkedin</a></li>
+          </ul>
+          <p class="footer-copy">Copyright &copy; 2022 by Federico Carrillo</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
