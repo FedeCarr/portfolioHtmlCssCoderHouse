@@ -1,0 +1,19 @@
+{
+  "name": "portfoliocarrillo",
+  "version": "1.0.0",
+  "description": "<h1>Portfolio Carrillo</h1>\r <p>Proyecto de Portfolio de mi viaje en Brandenburgo</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedeCarr/portfolioCarrillo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedeCarr/portfolioCarrillo/issues"
+  },
+  "homepage": "https://github.com/FedeCarr/portfolioCarrillo#readme"
+}

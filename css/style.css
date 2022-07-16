@@ -8,7 +8,8 @@ body {
   background-color: #fff;
 }
 .container {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background-image: linear-gradient(to bottom, rgb(214, 214, 214), #fafafa);
   margin: 0.5% 3%;
 }
 /* NAVEGADOR */
@@ -26,8 +27,20 @@ body {
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   text-align: center;
+  animation-duration: 5s;
+  animation-name: degradado;
+  animation-iteration-count: infinite;
   /* justify-content: space-around; */
 }
+@keyframes degradado {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .menu-superior {
   list-style-type: none;
   text-align: center;
@@ -116,6 +129,7 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 3px;
+  transform: scale(1, 1.1);
 }
 .iframe {
   width: 100%;
