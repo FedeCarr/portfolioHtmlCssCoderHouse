@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,23 +20,47 @@
     <title>FredInBrandenburg | About</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container">     
       <!-- HEADER -->
       <header>
         <!-- NAVEGADOR -->
-        <nav class="nav-container">
-          <!-- Logo -->
-          <h1 id="logo">Fred in Brandenburg</h1>
-          <!--Menú  -->
-          <ul class="menu-superior">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./brandenburg.html">Brandenburg</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
+        <nav>
+          <div class="nav-container">
+            <h1 id="logo">Fred in Brandenburg</h1>
+            <!--Menú  -->
+            <div class="navbar navbar-expand-lg navbar-light">
+              <div>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navegacion"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div
+                class="menu-superior d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"
+              >
+                <ul>
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="../pages/about.html">About</a></li>
+                  <li><a href="../pages/brandenburg.html">Brandenburg</a></li>
+                  <li><a href="../pages/portfolio.html">Portfolio</a></li>
+                  <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <ul id="navegacion" class="collapse navbar-collapse menu-superior">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../pages/about.html">About</a></li>
+              <li><a href="../pages/brandenburg.html">Brandenburg</a></li>
+              <li><a href="../pages/portfolio.html">Portfolio</a></li>
+              <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
         </nav>
-      </header>
       <!-- CONTENIDO PRINCIPAL DE ABOUT -->
       <main>
         <div class="about-container">
@@ -39,7 +69,7 @@
             <div class="profile-item">
               <img
                 class="profile__img"
-                src="./img/profilePhoto.JPG"
+                src="../img/profilePhoto.JPG"
                 width="173"
                 height="308"
                 alt="Profile picture of Fred"
@@ -162,10 +192,13 @@
             </p> -->
 
           </section>
+          <div class="row">
+            
+          </div>
           <section class="sec2">
             <img
             class="section-img"
-            src="./img/eugene-golovesov-5L1VKSxKmeI-unsplash.jpg"
+            src="../img/eugene-golovesov-5L1VKSxKmeI-unsplash.jpg"
             width="120"
             height="178"
             alt="Fred childhood"
@@ -189,7 +222,7 @@
           <section class="sec3">
             <img
             class="section-img"
-            src="./img/ilia-bronskiy-6RKoLzburDs-unsplash.jpg"
+            src="../img/ilia-bronskiy-6RKoLzburDs-unsplash.jpg"
             alt="Photo of a church in Berlin"
             width="299"
             height="374"
@@ -213,7 +246,7 @@
           <section class="sec4">
             <img
               class="section-img"
-              src="./img/mark-zu-UBrR63ktKpo-unsplash.jpg"
+              src="../img/mark-zu-UBrR63ktKpo-unsplash.jpg"
               alt="Landscape of a snowy field"
               width="224"
               height="399"
@@ -250,5 +283,10 @@
         </div>
       </footer>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

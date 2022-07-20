@@ -46,9 +46,9 @@
               >
                 <ul>
                   <li><a href="../index.html">Home</a></li>
-                  <li><a href="./pages/about.html">About</a></li>
-                  <li><a href="./pages/brandenburg.html">Brandenburg</a></li>
-                  <li><a href="./pages/portfolio.html">Portfolio</a></li>
+                  <li><a href="../pages/about.html">About</a></li>
+                  <li><a href="../pages/brandenburg.html">Brandenburg</a></li>
+                  <li><a href="../pages/portfolio.html">Portfolio</a></li>
                   <li><a href="#">Contact</a></li>
                 </ul>
               </div>
@@ -56,71 +56,71 @@
           </div>
             <ul id="navegacion" class="collapse navbar-collapse menu-superior">
               <li><a href="../index.html">Home</a></li>
-              <li><a href="./pages/about.html">About</a></li>
-              <li><a href="./pages/brandenburg.html">Brandenburg</a></li>
-              <li><a href="./pages/portfolio.html">Portfolio</a></li>
+              <li><a href="../pages/about.html">About</a></li>
+              <li><a href="../pages/brandenburg.html">Brandenburg</a></li>
+              <li><a href="../pages/portfolio.html">Portfolio</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
         </nav>
       </header>
       <!-- CONTENIDO PRINCIPAL DE CONTACT -->
-      <main>
+      <main class="container-xl py-5">
         <section class="seccion-title">
           <h2>
             I am available to collaborate on different cultural events and
             discover new places in Brandenburg
           </h2>
         </section>
-        <!--SECCION FORMULARIO-->
-        <section class="formularios">
-          <h2>Contact me</h2>
-          <!-- input: Campo de nombre -->
-          <form action="">
-            <label for="nameContact">Name:</label>
-            <input
-              type="text"
-              placeholder="Write your name"
-              name="emailContact"
-            />
-            <!-- input: Campo de email -->
-            <label for="emailContact">Email:</label>
-            <input
-              type="email"
-              name="emailContact"
-              placeholder="Write your email"
-            />
-            <!-- Menu desplegable: Pregunta si reside en Brandenburgo-->
-            -->
-            <label for="residencia">Do you live in Brandenburg?</label>
-            <select name="residencia" id="residencia">
-              <option value="">Choose option</option>
-              <option value="yes">Yes</option>
-              <option value="noBut">No but I live in Germany</option>
-              <option value="yes">No, I live in another country.</option>
-            </select>
-            <!-- Checkbox: newsletter -->
-            <label for="notifications"
-              >Do you want to receive event notifications?<input
-                type="checkbox"
-                name="newsletter"
-                id=""
-            /></label>
-
-            <label for="messageContact"
-              >Drop me a line if you fancy a chat:</label
-            >
-            <textarea
-              name="messageContact"
-              id="messageContact"
-              cols="30"
-              rows="10"
-            ></textarea>
-
-            <button type="reset">Reset</button>
-            <button type="submit">Send</button>
+        <h2 class="text-center my-5">Contact me</h2>
+        <div class="row justify-content-center">
+          <form class="col-md-8">
+            <fieldset>
+              <legend class="text-center text-white text-uppercase bg-dark">Your contact</legend>
+              <div class="mb-3">
+                <label class="form-label text-uppercase" for="Nombre">Nombre</label>
+                <input type="text" class="form-control p-3 fs-2 " id="nombre" placeholder="Your name">
+              </div>
+              <div class="mb-3">
+                <label class="form-label text-uppercase" for="Subject">Subject</label>
+                <input type="text" class="form-control p-3 fs-2" id="Subject" placeholder="Subject">
+              </div>
+              <div class="mb-3">
+                <label class="form-label text-uppercase" for="email">Email</label>
+                <input type="email" class="form-control p-3 fs-2" id="email" placeholder="Your Email">
+              </div>
+              <div class="mb-3">
+                <label class="form-label text-uppercase" for="Message">Message</label>
+                <textarea class="form-control" name="" id="Message" rows="10"></textarea>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="bg-primary text-center text-white text-uppercase bg-dark">Country</legend>
+              <div class="mb-3">
+                <label class="form-label" for="Country">Country</label>
+                <select class="form-control" name="" id="Country">
+                  <option value="">--Select--</option>
+                  <option value="DE">Germany</option>
+                  <option value="AR">Argentina</option>
+                  <option value="EU">Rest of Europe</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="bg-primary text-center text-white text-uppercase bg-dark">Extra information</legend>
+              <div class="mb-3 form-check">
+                <label class="form-label" for="comp">Company</label>
+                <input name="tipo" type="radio" class="form-check-input" id="comp">
+              </div>
+              <div class="mb-3 form-check">
+                <label class="form-label" for="Ot">Other</label>
+                <input name="tipo" type="radio" class="form-check-input" id="Ot">
+              </div>
+            </fieldset>
+            <input class="btn btn-primary fs-2 px-5 mt-5 w-100 bg-dark text-uppercase border-dark" type="submit" value="Send contact">
           </form>
-        </section>
+        </div>
       </main>
       <!-- FOOTER -->
       <footer>
