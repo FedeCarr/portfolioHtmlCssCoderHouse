@@ -11,7 +11,7 @@ body {
 
 .container-all {
   /* background-color: #fafafa; */
-  background-image: linear-gradient(to bottom, #d6d6d6, #fafafa);
+  background-image: linear-gradient(to bottom, #d6d6d6, #fff);
   margin: 0.5% 3%;
 }
 
@@ -538,7 +538,7 @@ body {
     top: 30%;
   }
   .img-hero {
-    width: 100%;
+    width: 98%;
   }
   /* SECCIONES */
   .main-container {
