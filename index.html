@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,17 +25,42 @@
       <!-- HEADER -->
       <header>
         <!-- NAVEGADOR -->
-        <nav class="nav-container">
-          <!-- Logo -->
-          <h1 id="logo">Fred in Brandenburg</h1>
-          <!--Menú  -->
-          <ul class="menu-superior">
-            <li><a href="#">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./brandenburg.html">Brandenburg</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
+        <nav>
+          <div class="nav-container">
+            <h1 id="logo">Fred in Brandenburg</h1>
+            <!--Menú  -->
+            <div class="navbar navbar-expand-lg navbar-light">
+              <div>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navegacion"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div
+                class="menu-superior d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"
+              >
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="./pages/about.html">About</a></li>
+                  <li><a href="./pages/brandenburg.html">Brandenburg</a></li>
+                  <li><a href="./pages/portfolio.html">Portfolio</a></li>
+                  <li><a href="./pages/contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <ul id="navegacion" class="collapse navbar-collapse menu-superior">
+              <li><a href="#">Home</a></li>
+              <li><a href="./pages/about.html">About</a></li>
+              <li><a href="./pages/brandenburg.html">Brandenburg</a></li>
+              <li><a href="./pages/portfolio.html">Portfolio</a></li>
+              <li><a href="./pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
         </nav>
         <!-- HERO SECTION -->
         <div class="hero-container">
@@ -155,5 +187,10 @@
         </div>
       </footer>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
