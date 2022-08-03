@@ -6,3 +6,13 @@ $color-destacado: #222;
 $color-texto: #555;
 $color-pointer: #999;
 $color-copyright: #aaa;
+
+//Color palette
+$colors: (
+  "principal": $color-principal,
+  "secundario": $color-secundario,
+  "destacado": $color-destacado,
+  "texto": $color-texto,
+  "pointer": $color-pointer,
+  "copyright": $color-copyright,
+);
