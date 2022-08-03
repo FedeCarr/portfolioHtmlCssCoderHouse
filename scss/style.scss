@@ -1,6 +1,10 @@
 @import "variables";
-@import "mixins";
 @import "colors";
+@mixin bgImg($opacidad, $radio) {
+  opacity: $opacidad;
+  border-radius: $radio;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -78,6 +82,7 @@ body {
 }
 
 /* HERO SECTION */
+
 .hero-container {
   position: relative;
   display: inline-block;
@@ -88,7 +93,7 @@ body {
   margin: 0px auto;
   height: auto;
   display: block;
-  border-radius: 3px;
+  @include bgImg(0.7, 3px);
 }
 
 .hero-slogan {
@@ -101,6 +106,7 @@ body {
   color: $color-destacado;
   letter-spacing: 0.2rem;
   text-align: center;
+  z-index: 1;
 }
 
 /* SECCIONES*/
