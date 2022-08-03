@@ -1,7 +1,28 @@
    -Keywords
-    <meta name="description" content="Portfolio about Brandenburg and its landscape">
-    <p>Sintesis sobre que va la pagina web</p>
     <meta name="keywords" content="Portfolio, Brandenburg, Germany, landscape, Drahnsdorf, Golßen, Postdam">
-    <p>Palabras claves haciendo incapié en los lugares donde se tomaron las fotos</p>
+    Palabras claves haciendo incapié en los lugares donde se tomaron las fotos<
    -Títulos
+    FredInBrandenburg | Home
+    FredInBrandenburg | About
+    FredInBrandenburg | Brandenburg
+    FredInBrandenburg | Contact
+    FredInBrandenburg | Portfolio
+   -Description
+    INDEX
+    <meta name="description" content="Portfolio about Brandenburg and its landscape">
+    Sintesis sobre que va la pagina web. Enfasis en el lugar y objeto de la página, la cual es un Portfolio
+    ABOUT
+    <meta name="description" content="About Fred and his Biography">
+    BRANDENBURG
+    <meta name="description" content="Brandenburg and its landscapes">
+    PORTFOLIO
+    <meta name="description" content="Photographs of brandenburg and its sunsets">
+    CONTACT
+    <meta name="description" content="How to contact Fred">
+   -Encabezados
+    <h1 id="logo">Fred in Brandenburg</h1>
+    Un solo h1 por página para darle ponderancia al nombre de la web
+    <h2 class="hero-slogan">Casual traveler discovering Brandenburg</h2>
+    Lo mismo para el h2. Dandole importancia al slogan que es lo que describe la página.
+    Luego me manejo con h3 y <p>
     
