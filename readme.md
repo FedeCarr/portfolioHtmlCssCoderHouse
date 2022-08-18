@@ -12,6 +12,6 @@ HTML, CSS, Bootsrap, SASS, Node, NPM
 
 **nodemon:** "^2.0.19"
 
-## Tech Stack
+## Author
 
 Federico Andres Carrillo
