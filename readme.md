@@ -11,3 +11,7 @@ HTML, CSS, Bootsrap, SASS, Node, NPM
 **node-sass:** "^7.0.1"
 
 **nodemon:** "^2.0.19"
+
+## Tech Stack
+
+Federico Andres Carrillo
